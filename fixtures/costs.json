@@ -1,0 +1,24 @@
+{
+  "currency": "USD",
+  "basis": "fixed illustrative monthly teaching prices, NOT live GCP rates",
+  "baseline": {
+    "nodes": 3,
+    "cpu_per_node": 4,
+    "ram_gib_per_node": 16,
+    "node_monthly": 100,
+    "disk_gib_per_node": 100,
+    "disk_gib_monthly": 0.1,
+    "sql_monthly": 80,
+    "storage_monthly": 10
+  },
+  "candidate": {
+    "nodes": 3,
+    "cpu_per_node": 2,
+    "ram_gib_per_node": 8,
+    "node_monthly": 60,
+    "disk_gib_per_node": 50,
+    "disk_gib_monthly": 0.1,
+    "sql_monthly": 80,
+    "storage_monthly": 10
+  }
+}

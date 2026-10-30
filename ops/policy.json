@@ -1,0 +1,20 @@
+{
+  "bindings": [
+    {
+      "role": "roles/logging.viewer",
+      "members": [
+        "user:reviewer@example.invalid"
+      ]
+    }
+  ],
+  "auditConfigs": [
+    {
+      "service": "compute.googleapis.com",
+      "auditLogConfigs": [
+        {
+          "logType": "ADMIN_READ"
+        }
+      ]
+    }
+  ]
+}
